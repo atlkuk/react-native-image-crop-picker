@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.license      = 'MIT'
   s.homepage     = 'n/a'
-  s.authors      = { "ivpusic" => "" }
-  s.source       = { :git => "https://github.com/ivpusic/react-native-image-crop-picker", :tag => 'v#{version}'}
+  s.authors      = { "atlkuk" => "" }
+  s.source       = { :git => "https://github.com/atlkuk/react-native-image-crop-picker", :tag => 'v#{version}'}
   s.source_files = 'ios/src/*.{h,m}'
   s.platform     = :ios, "8.0"
   s.dependency 'RSKImageCropper'
   s.dependency 'QBImagePickerController'
-  s.dependency 'React/Core'
+  s.dependency 'React-Core'
 end
